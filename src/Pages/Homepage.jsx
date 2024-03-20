@@ -5,7 +5,7 @@ import drop from "../assets/drop.png"
 const Homepage = () => {
   return (
     <div>
-      <div className="content__wrapper container ">
+      <div className="content__wrapper w-full ">
         <hr  className=' lg:mb-10'/>
           <div className="image hidden absolute sm:flex sm:left-[230px] sm:top-[50px] md:left-[300px] md:top-[100px] lg:hidden ">
             <img src={drop} alt="drop"/>

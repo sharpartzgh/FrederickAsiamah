@@ -14,7 +14,7 @@ const Footer = () => {
       <Link to="https://www.linkedin.com/in/frederick-asiamah"><FaLinkedinIn className=' w-[24px] h-[24px]'/></Link> 
       </div>
       <div className="email flex justify-end items-center gap-2" >
-      <a href="mailto:EMAIL">frederickasiama@outlook.com</a>
+      <a href="mailto:EMAIL">frederickasiamah@outlook.com</a>
       <img src={line} alt="line" className='hidden md:flex h-[1px] w-32'/>
       </div>
     </div>

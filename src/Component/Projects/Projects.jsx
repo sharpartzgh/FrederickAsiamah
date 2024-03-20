@@ -75,7 +75,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="mx-5">
+    <div className="mx-5 w-full">
       <div className="projectcs__rapper grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3">
         {/* Render each project item */}
         {projectsData.map((project, index) => (
@@ -92,7 +92,7 @@ const Projects = () => {
               />
             
               {isHovered[index] && (
-                <div className="hover__overlay hidden absolute inset-0 bg-gray-800 bg-opacity-75  lg:flex items-center justify-center h-[86%]">
+                <div className="hover__overlay hidden absolute inset-0 bg-gray-800 bg-opacity-75  lg:flex items-center justify-center h-[86%] lg:h-[86%] xl:h-[86%]">
                   <div className="hover__links flex gap-10 lg:gap-5 lg:flex-col xl:flex-col text-center">
                     <Link to={project.viewProjectsLink}><Contact text="VIEW PROJECTS" /></Link>
                     <Link to={project.viewCodeLink}><Contact text="VIEW CODE" /></Link>
