@@ -11,7 +11,7 @@ import Resume from './Pages/Resume'
 function App() {
 
   return (
-    <body className=' mx-auto px-20 bg-black text-white'>
+    <body className=' mx-auto px-10 md:px-20 bg-black text-white'>
       <Header/>
         <Routes>
           <Route path='/' element={ <Homepage/> }/>
