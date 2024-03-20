@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../Component/Hero/Hero'
 import drop from "../assets/drop.png"
 
-const Hompage = () => {
+const Homepage = () => {
   return (
     <div>
       <div className="content__wrapper container ">
@@ -19,4 +19,4 @@ const Hompage = () => {
   )
 }
 
-export default Hompage
+export default Homepage
